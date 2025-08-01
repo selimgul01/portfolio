@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="container m-auto">
     <div className="w-full flex items-center justify-between h-20 bg-white ">
       <div className=" ">
-        <img src="/public/logo.png" width={44} height={44}  alt="" />
+        <img src="/logo.png" width={44} height={44}  alt="" />
       </div>
       <div className="flex items-center space-x-10">
         <p className="text-2xl text-[#5987c0]  transition ease-in-out  duration-700 hover:scale-110 hover:text-black cursor-pointer ">
