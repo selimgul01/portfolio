@@ -174,7 +174,7 @@ const HomeSection = () => {
         <div className="flex">
           <img
             className=" rounded-full w-[450px] h-[450px] "
-            src="public/hero3.jpg"
+            src="/public/hero3.jpg"
             alt=""
           />
         </div>
