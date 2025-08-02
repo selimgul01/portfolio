@@ -2,9 +2,9 @@ import React from "react";
 
 const HomeSection = () => {
   return (
-    <div className=" flex items-center justify-center w-full h-screen">
-      <div className=" flex items-center  space-x-16">
-        <div className="flex flex-col ">
+    <div className=" flex  w-full h-screen">
+      <div className=" flex w-full items-center  justify-center space-x-16">
+        <div data-aos="fade-right" className="flex flex-col ">
           <div class="card ">
             <div class="loader space-x-3">
               <p className="text-[#5987c0] flex items-center justify-center text-3xl">
@@ -171,7 +171,7 @@ const HomeSection = () => {
           </div>
         </div>
 
-        <div className="flex">
+        <div data-aos="fade-left" className="flex basis-1/3">
           <img
             className=" rounded-full w-[450px] h-[450px] "
             src="/hero3.jpg"
